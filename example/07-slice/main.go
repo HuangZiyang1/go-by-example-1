@@ -11,11 +11,13 @@ func main() {
 	fmt.Println("get:", s[2])   // c
 	fmt.Println("len:", len(s)) // 3
 
+	// 推入一个值
 	s = append(s, "d")
 	s = append(s, "e", "f")
 	fmt.Println(s) // [a b c d e f]
 
 	c := make([]string, len(s))
+	fmt.Println(c) // [  ]
 	copy(c, s)
 	fmt.Println(c) // [a b c d e f]
 

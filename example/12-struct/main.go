@@ -8,8 +8,13 @@ type user struct {
 }
 
 func main() {
+	// 创建一个结构体，然后初始化
+	// 有两种初始化方式
+	// 全写
 	a := user{name: "wang", password: "1024"}
+	// 按顺序写
 	b := user{"wang", "1024"}
+	// 也可以只初始化部分字段
 	c := user{name: "wang"}
 	c.password = "1024"
 	var d user

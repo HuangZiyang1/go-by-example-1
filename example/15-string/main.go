@@ -7,8 +7,9 @@ import (
 
 func main() {
 	a := "hello"
-	fmt.Println(strings.Contains(a, "ll"))                // true
-	fmt.Println(strings.Count(a, "l"))                    // 2
+	fmt.Println(strings.Contains(a, "ll")) // true
+	fmt.Println(strings.Count(a, "l"))     // 2
+	// 判断字符串是否以指定的字符串开头或结尾
 	fmt.Println(strings.HasPrefix(a, "he"))               // true
 	fmt.Println(strings.HasSuffix(a, "llo"))              // true
 	fmt.Println(strings.Index(a, "ll"))                   // 2

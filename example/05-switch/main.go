@@ -15,6 +15,7 @@ func main() {
 		fmt.Println("two")
 	case 3:
 		fmt.Println("three")
+	// 4或5
 	case 4, 5:
 		fmt.Println("four or five")
 	default:

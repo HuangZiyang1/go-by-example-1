@@ -7,6 +7,8 @@ type user struct {
 	password string
 }
 
+// user 结构体的方法，检查密码是否正确，返回布尔值
+// 第一次见这种这么写的方法
 func (u user) checkPassword(password string) bool {
 	return u.password == password
 }

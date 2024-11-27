@@ -1,3 +1,8 @@
+// This program demonstrates the difference between passing a value and passing a pointer to a function in Go.
+// The `add2` function takes an integer value and adds 2 to it, but since it operates on a copy of the value,
+// the original value remains unchanged.
+// The `add2ptr` function takes a pointer to an integer and adds 2 to the value at that memory address,
+// modifying the original value.
 package main
 
 import "fmt"
